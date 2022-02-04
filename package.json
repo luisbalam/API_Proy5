@@ -10,15 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/isc-joserodriguez/M3-API.git"
+    "url": "git+https://github.com/luisbalam/API_Proy5.git"
+    
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/isc-joserodriguez/M3-API/issues"
+    "url": "https://github.com/isc-joserodriguez/API_Proy5/issues"
   },
-  "homepage": "https://github.com/isc-joserodriguez/M3-API#readme",
+  "homepage": "/",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
