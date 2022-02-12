@@ -137,7 +137,7 @@ const getInfo = async (req, res) => {
     try {
         //! Obtenemos en ID del token
         // en la proyección, ponemos 1 a lo que queremos mostrar y 0 a lo que queremos ocultar
-        const resp = await User.findById(req.user.idUser, { firstname: 1, _id: 0, lastname: 1 });
+        const resp = await User.findById(req.user.idUser, { firstname: 1, _id: 0, lastname: 1, mail:1 });
         return res.json({
             menssage: 'User',
             detail: resp
